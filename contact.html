@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Imprinto - Контакти</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<script src="https://kit.fontawesome.com/69061d5a94.js?_v=20240528221216" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240528221216">
+	<link rel="shortcut icon" href="img/logo.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo"><picture><source data-srcset="img/logo.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  loading="lazy" data-src="img/logo.png" src="img/logo.png" alt="Logo"></picture> <span class="header__logo-title">Imprinto</span></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html" class="menu__link">Головна</a></li>
+							<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфоліо</a></li>
+							<li class="menu__item"><a href="services.html" class="menu__link">Послуги</a></li>
+							<li class="menu__item"><a href="contact.html" class="menu__link">Контакти</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__btns">
+					<button data-popup="#popup-login" class="header__btn header__btn_login main-btn">Ввійти</button>
+					<button class="header__btn header__btn_logout main-btn hide">Вийти</button>
+				</div>
+			</div>
+			<div class="push-mess">
+				<h4>Успішно!</h4>
+			</div>
+			<div class="push-mess-err">
+				<h4>Ви не увійшли!</h4>
+			</div>
+		</header>
+		<main class="page">
+			<a href="#" class="top-btn"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+			<div class="bread-crumbs">
+				<div class="bread-crumbs__container">
+					<p class="bread-crumbs__text">
+						<a class="bread-crumbs__link" href="index.html"><i class="fa-solid fa-house"></i> Головна</a>><span class="bread-crumbs__span">Контакти</span>
+					</p>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="contact__container">
+					<div class="title-wrap title-wrap_center">
+						<h2 class="contact__title title">Про нашу друкарню</h2>
+						<p class="contact__subtitle subtitle">У нас власне виробництво, тому можемо запропонувати справді вигідні ціни. А наше професійне поліграфічне обладнання забезпечує чудову якість друку та швидкість виконання замовлень.</p>
+					</div>
+					<div class="contact__items">
+						<div class="contact__item contact-item">
+							<div class="contact-item__logo"><i class="fa-solid fa-location-dot"></i></div>
+							<h4 class="contact-item__title">Наше розташування:</h4>
+							<p class="contact-item__cont">1. вул.Шевченка 34, Львів</p>
+							<p class="contact-item__cont">2. вул.Р.Шухевича 1, Київ</p>
+						</div>
+						<div class="contact__item contact-item">
+							<div class="contact-item__logo"><i class="fa-solid fa-comments"></i></div>
+							<h4 class="contact-item__title">Контактна інформація:</h4>
+							<p class="contact-item__cont">+38 (066) 123 33 21</p>
+							<p class="contact-item__cont">imprinto@gmail.com</p>
+						</div>
+						<div class="contact__item contact-item">
+							<div class="contact-item__logo"><i class="fa-regular fa-clock"></i></div>
+							<h4 class="contact-item__title">Графік роботи:</h4>
+							<p class="contact-item__cont">Пн - Пт: 09:00 - 19:00</p>
+							<p class="contact-item__cont">Сб - Нд: Вихідний</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="questions">
+				<div class="questions__container">
+					<div class="title-wrap questions__title-block">
+						<h2 class="questions__title title">Виникли якісь проблеми або запитання?</h2>
+						<p class="questions__subtitle">Залиште свою контактну інформацію та опишіть вашу проблему. Наш менеджер зателефонує вам протягом 5 хвилин.</p>
+					</div>
+					<form action="" class="questions__form">
+						<div class="questions__form-row">
+							<div class="questions__form-col">
+								<label for="qs-form-name" class="questions__form-label">Ім'я: </label>
+								<input type="text" name="qs-form-name" id="qs-form-name" required data-error="Помилка" class="questions__form-input">
+							</div>
+							<div class="questions__form-col">
+								<label for="qs-form-tel" class="questions__form-label">Номер телефону: </label>
+								<input type="tel" name="qs-form-tel" id="qs-form-tel" required data-error="Помилка" class="questions__form-input input-tel">
+							</div>
+						</div>
+						<div class="questions__form-col">
+							<label for="qs-form-textarea" class="questions__form-label">Опишіть Вашу проблему: </label>
+							<textarea name="form[textarea]" required id="qs-form-textarea" c class="questions__form-textarea"></textarea>
+						</div>
+						<button type="submit" class="questions__form-btn main-btn">НАДІСЛАТИ</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__top footer-top">
+				<div class="footer-top__container">
+					<nav class="footer-top__menu">
+						<ul class="footer-top__link-list">
+							<li class="footer-top__list-link"><a href="contact.html">Про Нас</a></li>
+							<li class="footer-top__list-link"><a href="services.html">Послуги</a></li>
+							<li class="footer-top__list-link"><a href="services.html">Ціни</a></li>
+							<li class="footer-top__list-link"><a href="404.html">Конфіденційність</a></li>
+							<li class="footer-top__list-link"><a href="contact.html">Контакти</a></li>
+						</ul>
+						<ul class="footer-top__social-list">
+							<li class="footer-top__social-item"><a href="404.html"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+							<li class="footer-top__social-item"><a href="404.html"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+							<li class="footer-top__social-item"><a href="404.html"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+						</ul>
+					</nav>
+					<div class="footer-top__columns">
+						<div class="footer-top__column">
+							<h3 class="footer-top__column-title">Про Нас</h3>
+							<nav class="footer-top__column-link-list">
+								<a href="portfolio.html" class="footer-top__column-link">Новинки</a>
+								<a href="services.html" class="footer-top__column-link">Послуги</a>
+								<a href="404.html" class="footer-top__column-link">Блог</a>
+								<a href="services.html" class="footer-top__column-link">Категорії & Ціни</a>
+							</nav>
+						</div>
+						<div class="footer-top__column">
+							<h3 class="footer-top__column-title">Послуги</h3>
+							<nav class="footer-top__column-link-list">
+								<a href="services.html" class="footer-top__column-link">Дизайн продукції</a>
+								<a href="services.html" class="footer-top__column-link">Редагування макету</a>
+								<a href="services.html" class="footer-top__column-link">Розробка логотипу</a>
+								<a href="services.html" class="footer-top__column-link">Унікальна продукція</a>
+							</nav>
+						</div>
+						<div class="footer-top__column">
+							<h3 class="footer-top__column-title">Підтримка</h3>
+							<nav class="footer-top__column-link-list">
+								<a href="404.html" class="footer-top__column-link">Центр підтримки</a>
+								<a href="404.html" class="footer-top__column-link">Документація</a>
+								<a href="404.html" class="footer-top__column-link">Наші новини</a>
+								<a href="404.html" class="footer-top__column-link">Партнери</a>
+							</nav>
+						</div>
+						<div class="footer-top__column">
+							<h3 class="footer-top__column-title">Стеж за нами</h3>
+							<nav class="footer-top__column-link-list">
+								<a href="404.html" class="footer-top__column-link">Twitter</a>
+								<a href="404.html" class="footer-top__column-link">Tik Tok</a>
+								<a href="404.html" class="footer-top__column-link">Facebook</a>
+								<a href="404.html" class="footer-top__column-link">Instagram</a>
+							</nav>
+						</div>
+						<div class="footer-top__column footer-top__contact">
+							<h3 class="footer-top__column-title">Контакти</h3>
+							<address class="footer-top__column-street">вул.Шевченка 34, Львів</address>
+							<address class="footer-top__column-tel">+38 (066) 123 33 21</address>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom footer-bottom">
+				<div class="footer-bottom__container">
+					<p class="footer-bottom__copy">©Imprinto 2023. Всі права захищено</p>
+					<p class="footer-bottom__use">Умови використання</p>
+					<p class="footer-bottom__confidence">Політика конфіденційності</p>
+				</div>
+			</div>
+		</footer>
+		<div id="popup-more" aria-hidden="true" class="popup popup-more">
+			<div class="popup__wrapper popup-more__wrapper">
+				<div class="popup__content">
+					<div class="popup-more__row">
+						<h4 class="popup-more__title">Отримати консультацію</h4>
+						<button data-close type="button" class="popup__close"><i class="fa-solid fa-xmark"></i></button>
+					</div>
+					<div class="popup__text">
+						<p class="popup-more__description">Залиште свою контактну інформацію і наш менеджер Вам зателефонує.</p>
+						<form action="#" class="popup-more__form" id="popup-more-form">
+							<div class="popup-more__form-col">
+								<label for="more-form-name" class="popup-more__form-label">Ваше ім'я: </label>
+								<input type="text" name="more-form-name" id="more-form-name" required data-error="Помилка" class="popup-more__form-input">
+							</div>
+							<div class="popup-more__form-col">
+								<label for="more-form-tel" class="popup-more__form-label">Ваш номер телефону: </label>
+								<input type="tel" name="more-form-tel" id="more-form-tel" required data-error="Помилка" class="popup-more__form-input input-tel">
+							</div>
+							<button type="submit" class="popup-more__btn main-btn">Продовжити</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-login" aria-hidden="true" class="popup popup-login">
+			<div class="popup__wrapper popup-login__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close popup-login__close-btn"><i class="fa-solid fa-xmark"></i></button>
+					<div class="popup__text">
+						<form action="#" class="popup-login__form">
+							<h3 class="popup-login__title">Зповніть форму для входу</h3>
+							<input type="text" name="username" required data-error="Помилка" placeholder="Ваше ім'я" class="input popup-login__username">
+							<input type="email" name="email" required data-error="Помилка" placeholder="Електронна адреса" class="input popup-login__email">
+							<div class="popup-login__pass">
+								<input type="password" minlength="8" autocomplete="on" name="password" required data-error="Помилка" placeholder="Пароль" class="input popup-login__password">
+								<button type="button" class="popup-login__show-pass-btn"><i class="fa-solid fa-eye"></i></button>
+							</div>
+							<button type="submit" class="main-btn popup-login__btn">Увійти</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-order" aria-hidden="true" class="popup popup-order">
+			<div class="popup__wrapper popup-order__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close popup-order__close-btn"><i class="fa-solid fa-xmark"></i></button>
+					<div class="popup__text">
+						<form action="#" class="popup-order__form" id="order-form">
+							<h3 class="popup-order__title">Свормуйте своє замовлення</h3>
+							<p class="popup-order__subtitle">Наш консультант вам зателефонує</p>
+							<div class="popup-order__row">
+								<label for="pop-order-body-list" class="popup-order__label">Оберіть модель для друку</label>
+								<input list="pop-order-body" id="pop-order-body-list" class="popup-order__input" required>
+								<datalist id="pop-order-body" class="popup-order__list">
+									<option class="popup-order__option">Постер</option>
+									<option class="popup-order__option">Плакат</option>
+									<option class="popup-order__option">Брошура на скобі</option>
+									<option class="popup-order__option">Брошура типу "Євро"</option>
+									<option class="popup-order__option">Брошура типу "інфо"</option>
+									<option class="popup-order__option">Брошура типу "Книжка"</option>
+									<option class="popup-order__option">Картка</option>
+									<option class="popup-order__option">Візитка картонна</option>
+									<option class="popup-order__option">Візитка пластикова</option>
+									<option class="popup-order__option">Картина</option>
+									<option class="popup-order__option">Документ А4</option>
+									<option class="popup-order__option">Документ А5</option>
+									<option class="popup-order__option">Книга</option>
+								</datalist>
+							</div>
+							<div class="popup-order__row">
+								<label for="pop-order-count" class="popup-order__label">Кількість копій</label>
+								<input type="number" min="1" value="1" name="order-count" id="pop-order-count" class="popup-order__count popup-order__input">
+							</div>
+							<div class="popup-order__row">
+								<label for="pop-order-add" class="popup-order__label">Бажаєте щось добавити?</label>
+								<textarea name="order-add" id="pop-order-add" class="popup-order__textarea"></textarea>
+							</div>
+							<button type="submit" class="main-btn popup-order__btn">Готово</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js?_v=20240528221216"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js?_v=20240528221216"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js?_v=20240528221216"></script>
+
+	<script type="module" src="js/app.min.js?_v=20240528221216"></script>
+</body>
+
+</html>
